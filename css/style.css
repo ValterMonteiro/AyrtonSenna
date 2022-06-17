@@ -6,6 +6,24 @@
 amarelo = rgba(252,185,0,1)
 azul = rgb(2,3,129)
 */
+.titulo-o-piloto{
+    text-align: center;
+}
+.titulo-o-idolo{
+    text-align: center;
+}
+.botao-saber{
+    text-align: center;
+}
+.olegado-nome{
+    text-align: center;
+}
+.Texto-idolo{
+   text-align: justify;
+}
+.img-idolo{
+     
+}
 
 header, .navbar{
     background-color: #09447C;
@@ -24,11 +42,17 @@ header, .navbar{
     width: 200px;
     height: 55px;
 }
+.botao-saber{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
 
 /*================== *\
         SLIDER
 \*===================*/
-
+#meu-slide{
+    height: 600px;
+}
 .container-fluid{
     padding: 0;
 }
