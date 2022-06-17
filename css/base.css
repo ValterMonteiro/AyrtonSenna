@@ -1,0 +1,22 @@
+/*================== *\
+        GERAL
+\*===================*/
+body{
+    font-family: 'Roboto', sans-serif;
+}
+main{
+    position: relative;
+    top: 100px;
+}
+footer{
+    position: relative;
+    top: 100px;
+}
+
+.container{
+    padding: 70px 0;
+}
+
+.row{
+    margin: 0;
+}

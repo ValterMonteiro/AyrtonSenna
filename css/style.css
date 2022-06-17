@@ -1,0 +1,181 @@
+/*================== *\
+  BARRA DE NAVEGAÇÃO
+\*===================*/
+
+/*
+amarelo = rgba(252,185,0,1)
+azul = rgb(2,3,129)
+*/
+
+header, .navbar{
+    background-color: #09447C;
+}
+
+#nav-container{
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+#logo{
+    width: 70px;
+}
+
+#assinatura{
+    width: 200px;
+    height: 55px;
+}
+
+/*================== *\
+        SLIDER
+\*===================*/
+
+.container-fluid{
+    padding: 0;
+}
+
+.carousel-slide{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.carousel-caption{
+    top: 30%;
+}
+
+.carousel-caption h5{
+    font-size: 50px;
+    margin-bottom: 30px;
+}
+
+.carousel-caption p{
+    font-size: 22px;
+    font-weight: 300p;
+    margin-bottom: 100px;
+    color: #fff;
+}
+
+.main-btn{
+    background-color: #1a777a;
+    display: inline-block;
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration: none;
+    width: 200px;
+    height: 60px;
+    padding: 10px 20px;
+    border-radius: 30px;
+    border: 3px solid transparent;
+    transition: .5s;
+}
+
+.main-btn:hover{
+    text-decoration: none;
+    color: #fff;
+    background-color: transparent;
+    border-color: #1a777a;
+}
+
+.carousel-indicators .active{
+    background-color: #1a777a;
+}
+
+@media(max-width: 1140px){
+    .carousel-caption h5{
+        font-size: 40px;
+        margin-bottom: 20px;
+    }
+    .carousel-caption p{
+        font-size: 20px;
+        font-weight: 300;
+        margin-bottom: 80px;
+    }
+}
+
+@media(max-width: 912px){
+    .carousel-caption h5{
+        font-size: 35px;
+        margin-bottom: 20px;
+    }
+    .carousel-caption p{
+        font-size: 20px;
+        font-weight: 300;
+        margin-bottom: 60px;
+    }
+}
+
+@media(max-width: 800px){
+    .carousel-caption h5{
+        font-size: 35px;
+        margin-bottom: 15px;
+    }
+    .carousel-caption p{
+        font-size: 20px;
+        font-weight: 300;
+        margin-bottom: 60px;
+    }
+}
+
+@media(max-width: 710px){
+    .carousel-caption h5{
+        font-size: 28px;
+        margin-bottom: 12px;
+    }
+    .carousel-caption p{
+        /* display: none; */
+        font-size: 18px;
+        font-weight: 300;
+        margin-bottom: 30px;
+    }
+}
+
+/*================== *\
+        MAIN
+\*===================*/
+
+.main-btn{
+    background-color: #09447C;
+    display: inline-block;
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration: none;
+    width: 200px;
+    height: 60px;
+    padding: 10px 20px;
+    border-radius: 30px;
+    border: 3px solid transparent;
+    transition: .5s;
+}
+
+/*================== *\
+        FOOTER
+\*===================*/
+
+.assinatura{
+    width: 100px;
+    height: 60px;
+}
+.carousel-item{
+    background-color: #F7F7F7;
+    text-align: center;
+    height: 200px;
+    padding: 15px;
+}
+.carousel-item p{
+    font-size: 42px;
+    color: #08447C;
+     
+}
+.rodape{
+    background-color: #09447C;
+}
+.rodape  p{
+    color: white;
+}
+.nav-link{
+    color: white;
+}
+.rodape a{
+    color: white;
+}
