@@ -12,7 +12,9 @@ verde = #077322
 amarelo = #F2CB05
 amarelo = #F29F05
 */
-
+#botao-saber{
+   margin-bottom: 60px;
+}
 .titulo-o-piloto{
     text-align: center;
 }
@@ -25,6 +27,7 @@ amarelo = #F29F05
     text-align: center;
     padding: 0 20px;
     
+    
 }
 .olegado-nome{
     text-align: center;
@@ -32,6 +35,9 @@ amarelo = #F29F05
 .Texto-idolo{
    text-align: justify;
    
+}
+.img-idolo{
+    margin-bottom: 30px;
 }
 
 
