@@ -18,16 +18,20 @@ amarelo = #F29F05
 }
 .titulo-o-idolo{
     text-align: center;
-    padding: 10px;
+    margin-top: 20px;
+  
 }
 .botao-saber{
     text-align: center;
+    padding: 0 20px;
+    
 }
 .olegado-nome{
     text-align: center;
 }
 .Texto-idolo{
    text-align: justify;
+   
 }
 
 
@@ -201,12 +205,17 @@ header, .navbar{
 }
 .layout-o_idolo{
     background-color: #0773227e;
+
 }
 .layout-o_legado{
     background-color: #f2cb05b3;
 }
 .rodape{
     background-color: #09447C;
+   
+}
+.rodape-icon{
+   float: left;
 }
 .rodape  p{
     color: white;
